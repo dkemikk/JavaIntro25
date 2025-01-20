@@ -23,7 +23,7 @@ public class ReadingFromConsole {
 
         int userHobby = scanner.nextInt();
 
-        System.out.println("Excellent, " + userName + "!");
+        System.out.println(userHobby + "," + "Excellent, " + userName + "!");
 
     }
 }
