@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MyNameIs {
       public static void main(String[] args) {
 
+            // Replace a given substring with a text entered from the console
             Scanner scanner = new Scanner(System.in);
             String text  = "My name is <Test>";
             System.out.print("Enter the replacement text: ");
