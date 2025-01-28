@@ -6,6 +6,7 @@ public class NextHomework {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Find the largest number among three given numbers
         System.out.println("Enter three numbers: ");
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
@@ -19,6 +20,7 @@ public class NextHomework {
         }
         System.out.println("The largest number is: " + max);
 
+        // Calculate the perimeter and area of a rectangle
         System.out.println("Enter the length of the rectangle: ");
         double length = scanner.nextDouble();
         System.out.println("Enter the height of the rectangle: ");
@@ -28,6 +30,7 @@ public class NextHomework {
         System.out.println("Perimeter: " + perimeter);
         System.out.println("Area: " + area);
 
+        // Check if the entered number is even or odd
         System.out.println("Enter a number: ");
         int number = scanner.nextInt();
         if (number % 2 == 0) {
@@ -36,6 +39,7 @@ public class NextHomework {
             System.out.println("The number is odd.");
         }
 
+        // Print the name of the month based on the number entered (1 to 12)
         System.out.println("Enter a number between 1 and 12: ");
         int month = scanner.nextInt();
         switch (month) {
