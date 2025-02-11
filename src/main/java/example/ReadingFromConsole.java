@@ -14,5 +14,6 @@ public class ReadingFromConsole {
         System.out.println("Do you have any hobbies:");
         String hobby = scanner.nextLine();
         System.out.println("Your hobby is " + hobby + "!" + "Wonderful, " + userName + "!");
+
     }
 }
