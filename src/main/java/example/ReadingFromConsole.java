@@ -11,13 +11,9 @@ public class ReadingFromConsole {
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.nextLine();
 
-        System.out.println("Nice to meet you, " + userName + "!");
-        System.out.println("Please enter your age:");
-        int userAge = scanner.nextInt();
-        System.out.println("What a wonderful age you have, " + userAge + "!");
-        System.out.println("How many hobbies do you have:");
-        int userHobby = scanner.nextInt();
-        System.out.println(userHobby + "," + "Excellent, " + userName + "!");
+        System.out.println("Do you have any hobbies:");
+        String hobby = scanner.nextLine();
+        System.out.println("Wonderful, " + userName + "!");
 
     }
 }
